@@ -1,0 +1,123 @@
+.logoSquareIcon {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  border-radius: var(--br-xs);
+  min-height: 64px;
+}
+.monotoneAddIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.buttonIconFab {
+  border-radius: var(--br-xs);
+  background-color: var(--asklepios-gray-10);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+}
+.text {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--text-lg-bold-size);
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-family: var(--text-lg-bold);
+  color: var(--asklepios-gray-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 48px;
+}
+.vector {
+  position: absolute;
+  height: 33.33%;
+  width: 33.33%;
+  top: 12.5%;
+  right: 54.17%;
+  bottom: 54.17%;
+  left: 12.5%;
+  border-radius: var(--br-11xs-5);
+  border: 2px solid var(--asklepios-gray-white);
+  box-sizing: border-box;
+}
+.vector1 {
+  position: absolute;
+  height: 33.33%;
+  width: 33.33%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 54.17%;
+  left: 54.17%;
+  border-radius: var(--br-11xs-5);
+  border: 2px solid var(--asklepios-gray-white);
+  box-sizing: border-box;
+}
+.vector2 {
+  position: absolute;
+  height: 33.33%;
+  width: 33.33%;
+  top: 54.17%;
+  right: 54.17%;
+  bottom: 12.5%;
+  left: 12.5%;
+  border-radius: var(--br-11xs-5);
+  border: 2px solid var(--asklepios-gray-white);
+  box-sizing: border-box;
+}
+.vector3 {
+  position: absolute;
+  height: 33.33%;
+  width: 33.33%;
+  top: 54.17%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 54.17%;
+  border-radius: var(--br-11xs-5);
+  border: 2px solid var(--asklepios-gray-white);
+  box-sizing: border-box;
+}
+.monotoneAdd {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-6xl);
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.button {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-xl) var(--padding-13xl);
+  background-color: var(--therapeia-blue-60);
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.addButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.topNav {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}

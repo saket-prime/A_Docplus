@@ -1,0 +1,81 @@
+.getStartedToday {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+}
+.appStoreDownloadBadge {
+  align-self: stretch;
+  width: 189px;
+  position: relative;
+  border-radius: var(--br-7xs-6);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 56px;
+}
+.appStoreDownloadBadge1 {
+  align-self: stretch;
+  width: 189px;
+  position: relative;
+  border-radius: var(--br-7xs-6);
+  max-height: 100%;
+  min-height: 56px;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.container {
+  align-self: stretch;
+  border-radius: var(--br-5xl);
+  background-color: var(--therapeia-blue-20);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-29xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ctaSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--paragraph-xl-size);
+  color: var(--asklepios-gray-80);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 1450px) {
+  .getStartedToday {
+    font-size: var(--text-md-semibold-size);
+  }
+
+  .frame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .content {
+    flex-wrap: wrap;
+    gap: var(--gap-base);
+  }
+}

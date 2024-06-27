@@ -1,0 +1,205 @@
+.mockupIcon {
+  height: 984.7px;
+  width: 660.6px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -433.8px;
+  left: -65.9px;
+  object-fit: contain;
+}
+.componentIcon {
+  align-self: stretch;
+  width: 356.7px;
+  margin: 0 !important;
+  position: absolute;
+  top: 8px;
+  right: 6.3px;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.componentIcon1 {
+  align-self: stretch;
+  width: 356.7px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 42.6px;
+  left: -172px;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.asklepiosScoreOverview {
+  align-self: stretch;
+  width: 356.7px;
+  margin: 0 !important;
+  position: absolute;
+  right: -50.6px;
+  bottom: 37.1px;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.section {
+  height: 441px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 376px;
+  max-width: 100%;
+}
+.getYourHealth {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 44px;
+  font-weight: 800;
+  font-family: inherit;
+}
+.letsDownloadThe {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--paragraph-xl-size);
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--asklepios-gray-60);
+}
+.downloadContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.appStoreDownloadBadge {
+  align-self: stretch;
+  width: 189px;
+  position: relative;
+  border-radius: var(--br-7xs-6);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 56px;
+}
+.appStoreDownloadBadge1 {
+  align-self: stretch;
+  width: 189px;
+  position: relative;
+  border-radius: var(--br-7xs-6);
+  max-height: 100%;
+  min-height: 56px;
+}
+.downloadBadges {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.downloadContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.downloadContainerWrapper {
+  width: 448px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-45xl-5) 0px 0px;
+  box-sizing: border-box;
+  min-width: 448px;
+  max-width: 100%;
+}
+.container {
+  flex: 1;
+  border-radius: var(--br-13xl);
+  background-color: var(--therapeia-blue-20);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-29xl) var(--padding-99xl);
+  box-sizing: border-box;
+  gap: var(--gap-111xl);
+  max-width: 100%;
+}
+.containerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-5xl) var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-md-extrabold-size);
+  color: var(--asklepios-gray-80);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 1450px) {
+  .getYourHealth {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+
+  .letsDownloadThe {
+    font-size: var(--text-md-semibold-size);
+    line-height: 26px;
+  }
+
+  .downloadContainer {
+    gap: var(--gap-5xl);
+  }
+
+  .downloadContainerWrapper {
+    padding-top: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+
+  .container {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .section {
+    min-width: 100%;
+  }
+
+  .getYourHealth {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+
+  .downloadBadges {
+    flex-wrap: wrap;
+  }
+
+  .downloadContainerWrapper {
+    min-width: 100%;
+  }
+
+  .container {
+    gap: var(--gap-13xl);
+    padding: var(--padding-12xl) var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

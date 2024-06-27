@@ -1,0 +1,98 @@
+.monotoneAddIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.buttonIconFab {
+  border-radius: var(--br-xs);
+  background-color: var(--asklepios-gray-80);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+}
+.actionableInsights {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 32px;
+}
+.asklepiosLeveragesCutting {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-lg-bold-size);
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--asklepios-gray-30);
+}
+.frame2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.learnMore {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.frame3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--label-sm-size);
+}
+.frame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.chooseCardSecond {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+}
+.frame {
+  width: 375px;
+  border-radius: var(--br-5xl);
+  background-color: var(--asklepios-gray-70);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-xs-extrabold-size);
+  color: var(--asklepios-gray-white);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 450px) {
+  .actionableInsights {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .chooseCardSecond {
+    gap: var(--gap-13xl);
+  }
+}

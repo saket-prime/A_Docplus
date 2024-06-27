@@ -1,0 +1,188 @@
+.name {
+  width: 326px;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+  display: inline-block;
+  max-width: 100%;
+}
+.vectorIcon {
+  position: absolute;
+  height: 23.75%;
+  width: 23.75%;
+  top: 58.33%;
+  right: 17.92%;
+  bottom: 17.92%;
+  left: 58.33%;
+  border-radius: var(--br-11xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.vector {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  top: 37.5%;
+  right: 42.08%;
+  bottom: 12.5%;
+  left: 7.92%;
+  border-radius: var(--br-10xs);
+  border: 2px solid var(--asklepios-gray-80);
+  box-sizing: border-box;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.monotoneGenderMale {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.loremusIpsumusD {
+  width: calc(100% - 12px);
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-family: var(--text-lg-bold);
+  font-size: var(--text-md-semibold-size);
+  background-color: transparent;
+  height: 20px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  text-align: left;
+  display: inline-block;
+  min-width: 90px;
+  padding: 0;
+}
+.text {
+  width: 182px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.solidEyeIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: contain;
+  display: none;
+  min-height: 24px;
+}
+.content {
+  align-self: stretch;
+  box-shadow: var(--focus-ring-blue);
+  border-radius: var(--br-xs);
+  background-color: var(--asklepios-gray-white);
+  border: 1px solid var(--therapeia-blue-60);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-126xl) var(--padding-sm)
+    var(--padding-base);
+  gap: var(--gap-xl);
+}
+.inputText {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.monotoneGenderMale1 {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.loremusIpsumusD1 {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+.text1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.solidEyeIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.content1 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--asklepios-gray-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base);
+  gap: var(--gap-xl);
+  font-size: var(--text-md-semibold-size);
+}
+.name2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+}
+.monotoneGenderMale2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-6xl);
+}
+.loremusIpsumusD2 {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 84px;
+}
+.inputText2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 130px;
+}
+.frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--text-sm-semibold-size);
+  color: var(--asklepios-gray-80);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 450px) {
+  .content {
+    gap: var(--gap-25xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

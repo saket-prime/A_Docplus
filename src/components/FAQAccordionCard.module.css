@@ -1,0 +1,42 @@
+.howDoesDocplus {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  min-width: 172px;
+  max-width: 100%;
+}
+.monotoneAddIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.buttonIconFab {
+  border-radius: var(--br-3xs);
+  background-color: var(--asklepios-gray-10);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+}
+.frame {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--asklepios-gray-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--text-lg-bold-size);
+  color: var(--asklepios-gray-80);
+  font-family: var(--text-lg-bold);
+}

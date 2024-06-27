@@ -1,0 +1,154 @@
+.atom {
+  height: 8px;
+  width: 8px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--therapeia-blue-60);
+}
+.navItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-4xl);
+}
+.text {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  color: var(--asklepios-gray-80);
+  display: inline-block;
+  min-width: 53px;
+}
+.text1 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 75px;
+  cursor: pointer;
+}
+.frame {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--text-lg-bold-size);
+  color: var(--asklepios-gray-40);
+  font-family: var(--text-lg-bold);
+}
+.navColumn {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navColumnWrapper {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-20xl) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logoSquareIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  border-radius: var(--br-2xs-5);
+  object-fit: cover;
+  cursor: pointer;
+}
+.text3 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 79px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.text4 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 91px;
+  cursor: pointer;
+}
+.text5 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 72px;
+  cursor: pointer;
+}
+.frame1 {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--text-lg-bold-size);
+  color: var(--asklepios-gray-40);
+  font-family: var(--text-lg-bold);
+}
+.branding {
+  margin: 0;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.topNav {
+  align-self: stretch;
+  height: 80px;
+  border-radius: var(--br-sm);
+  background-color: var(--asklepios-gray-10);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+
+@media screen and (max-width: 825px) {
+  .frame {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .branding {
+    display: none;
+  }
+}

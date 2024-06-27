@@ -1,0 +1,75 @@
+.topNavWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xl) 120px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.guaranteeTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-77xl) var(--padding-123xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ctaSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footerButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.faqDesktop {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-13xl);
+  background-color: var(--asklepios-gray-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1450px) {
+  .guaranteeTitle {
+    padding-top: var(--padding-43xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .guaranteeTitle {
+    padding-left: var(--padding-52xl);
+    padding-right: var(--padding-52xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .guaranteeTitle {
+    padding: var(--padding-21xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

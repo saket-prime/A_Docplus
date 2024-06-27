@@ -1,0 +1,14 @@
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-sm-extrabold-size);
+  color: var(--asklepios-gray-white);
+  font-family: var(--text-lg-bold);
+}

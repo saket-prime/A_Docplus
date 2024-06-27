@@ -1,0 +1,130 @@
+.monotoneAddIcon {
+  height: 96px;
+  width: 96px;
+  position: relative;
+}
+.clientAvatar {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--therapeia-blue-10);
+  border: 1px solid var(--therapeia-blue-50);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-100xl) var(--padding-xl);
+}
+.patients {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 32px;
+  font-weight: 800;
+}
+.atDocplusHealth {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-lg-bold-size);
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--asklepios-gray-60);
+}
+.clientName {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.monotoneAddIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.buttonIconFab {
+  border-radius: var(--br-xs);
+  background-color: var(--asklepios-gray-80);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+}
+.clientDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.clientImage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.frame {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--asklepios-gray-10);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  min-width: 277px;
+  max-width: 100%;
+}
+.frame2 {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--hygieia-red-10);
+  border: 1px solid var(--hygieia-red-50);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-100xl) var(--padding-xl);
+}
+.frame6 {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--aceso-purple-10);
+  border: 1px solid var(--aceso-purple-60);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-100xl) var(--padding-xl);
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-xs-extrabold-size);
+  color: var(--asklepios-gray-80);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 450px) {
+  .patients {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

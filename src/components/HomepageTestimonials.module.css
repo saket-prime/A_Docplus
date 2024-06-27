@@ -1,0 +1,114 @@
+.containerInner {
+  width: 328px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-40xl-5) 0px 0px;
+  box-sizing: border-box;
+  min-width: 328px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.vectorIcon {
+  height: 88px;
+  width: 128px;
+  position: relative;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vectorIcon2 {
+  height: 88px;
+  width: 128px;
+  position: relative;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.vectorIcon7 {
+  height: 88px;
+  width: 128px;
+  position: relative;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.firstLogoIcon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 44px);
+  width: 88px;
+  height: 23px;
+}
+.companyLogoGeneral1 {
+  height: 88px;
+  width: 128px;
+  position: relative;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--therapeia-blue-40);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.companyLogos {
+  width: 878.5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 12px;
+  min-width: 878.5px;
+  min-height: 296px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.container {
+  width: 1392px;
+  border-radius: var(--br-5xl);
+  background-color: var(--therapeia-blue-20);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-100xl) var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-81xl-5);
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1450px) {
+  .containerInner {
+    flex: 1;
+  }
+
+  .companyLogos {
+    flex: 1;
+    min-width: 100%;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    padding-left: var(--padding-40xl);
+    padding-right: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .container {
+    gap: var(--gap-31xl);
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    gap: var(--gap-6xl);
+  }
+}

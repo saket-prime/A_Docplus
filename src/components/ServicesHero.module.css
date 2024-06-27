@@ -1,0 +1,49 @@
+.dAssetIcon {
+  position: absolute;
+  top: -497.6px;
+  left: -227.2px;
+  width: 1895.3px;
+  height: 1895.3px;
+  object-fit: contain;
+}
+.rectangle {
+  position: absolute;
+  top: 704px;
+  left: 0px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
+  width: 1440px;
+  height: 196px;
+  z-index: 1;
+}
+.heroImage {
+  width: 100%;
+  height: 1397.7px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0px;
+  bottom: -497.7px;
+  left: 0px;
+}
+.heroSection {
+  height: 900px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--text-md-semibold-size);
+  color: var(--asklepios-gray-80);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 450px) {
+  .heroSection {
+    height: auto;
+  }
+}

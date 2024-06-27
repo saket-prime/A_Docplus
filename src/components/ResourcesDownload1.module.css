@@ -1,0 +1,98 @@
+.downloadAppTo {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 56px;
+  font-weight: 800;
+  font-family: inherit;
+}
+.orSubscribeTo {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-lg-bold-size);
+  line-height: 160%;
+  font-weight: 500;
+}
+.text {
+  position: relative;
+  font-size: var(--text-md-semibold-size);
+  letter-spacing: -0.01em;
+  font-family: var(--text-lg-bold);
+  color: var(--asklepios-gray-white);
+  text-align: left;
+}
+.monotoneAddIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--asklepios-gray-white);
+  padding: var(--padding-sm) var(--padding-8xl);
+  background-color: var(--therapeia-blue-60);
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.downloadCallToAction {
+  width: 448px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) 0px 0px;
+  box-sizing: border-box;
+  min-width: 448px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-lg-extrabold-size);
+  color: var(--asklepios-gray-white);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 1450px) {
+  .downloadAppTo {
+    font-size: var(--font-size-19xl);
+    line-height: 45px;
+  }
+
+  .downloadCallToAction {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .downloadCallToAction {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .downloadAppTo {
+    font-size: var(--font-size-10xl);
+    line-height: 34px;
+  }
+
+  .frame {
+    gap: var(--gap-base);
+  }
+}

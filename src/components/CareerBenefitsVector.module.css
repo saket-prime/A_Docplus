@@ -1,0 +1,75 @@
+.monotoneAddIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonIconFab {
+  width: 64px;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--asklepios-gray-white);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lg) var(--padding-lgi);
+}
+.healthCoverage {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+}
+.fullHealthBenefits {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-lg-bold-size);
+  line-height: 29px;
+  font-weight: 500;
+  color: var(--therapeia-blue-20);
+}
+.benefitDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.benefitItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-109xl);
+}
+.vector {
+  width: 286px;
+  border-radius: var(--br-5xl);
+  background-color: var(--therapeia-blue-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--paragraph-xl-size);
+  color: var(--asklepios-gray-white);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 450px) {
+  .healthCoverage {
+    font-size: var(--text-md-semibold-size);
+  }
+
+  .benefitItem {
+    gap: var(--gap-45xl);
+  }
+}

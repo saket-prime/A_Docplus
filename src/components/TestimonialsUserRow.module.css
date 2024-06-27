@@ -1,0 +1,16 @@
+.row {
+  width: 1156px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--text-lg-bold-size);
+  color: var(--asklepios-gray-60);
+  font-family: var(--text-lg-bold);
+}

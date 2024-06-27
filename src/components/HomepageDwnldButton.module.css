@@ -1,0 +1,43 @@
+.text {
+  position: relative;
+  font-size: var(--text-lg-bold-size);
+  letter-spacing: -0.01em;
+  display: inline-block;
+  font-family: var(--text-lg-bold);
+  color: var(--therapeia-blue-60);
+  text-align: left;
+  min-width: 104px;
+}
+.monotoneAddIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.button {
+  border-radius: var(--br-xs);
+  background-color: var(--asklepios-gray-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-13xl);
+}
+.buttonRow {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

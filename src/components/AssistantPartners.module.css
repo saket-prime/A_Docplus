@@ -1,0 +1,135 @@
+.trustedByBig {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+.companyLogoHealthcare {
+  margin-left: -196px;
+  align-self: stretch;
+  width: 168px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 112px;
+}
+.companyLogoHealthcare1 {
+  align-self: stretch;
+  width: 168px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 112px;
+}
+.companyLogoHealthcare2 {
+  align-self: stretch;
+  width: 168px;
+  position: relative;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 112px;
+}
+.companyLogoHealthcare5 {
+  align-self: stretch;
+  width: 168px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 112px;
+}
+.companyLogos {
+  margin-right: -139px;
+  width: 1440px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-27xl) 0px var(--padding-31xl);
+  box-sizing: border-box;
+  gap: var(--gap-9xl);
+  max-width: 124%;
+  flex-shrink: 0;
+}
+.progressBarAtom {
+  height: 8px;
+  width: 36px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--asklepios-gray-white);
+}
+.atom {
+  height: 8px;
+  width: 8px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--asklepios-gray-white-a32);
+}
+.progressBar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.progressBarWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 0px 0px var(--padding-9xs);
+}
+.container {
+  width: 1392px;
+  border-radius: var(--br-5xl);
+  background-color: var(--therapeia-blue-60);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-29xl) var(--padding-96xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--paragraph-xl-size);
+  color: var(--asklepios-gray-white);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 1200px) {
+  .companyLogos {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+
+  .container {
+    padding-left: var(--padding-38xl);
+    padding-right: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .container {
+    gap: var(--gap-base);
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .trustedByBig {
+    font-size: var(--text-md-semibold-size);
+  }
+}

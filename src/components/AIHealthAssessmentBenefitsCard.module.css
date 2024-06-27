@@ -1,0 +1,117 @@
+.vectorIcon {
+  position: absolute;
+  height: 25%;
+  width: 20.83%;
+  top: 29.17%;
+  right: 29.17%;
+  bottom: 45.83%;
+  left: 50%;
+  border-radius: var(--br-11xs-5);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  border-radius: var(--br-10xs);
+  border: 2px solid var(--asklepios-gray-60);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.monotoneAdd {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.buttonIconFab {
+  border-radius: var(--br-xs);
+  background-color: var(--asklepios-gray-10);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+}
+.instantAccessibility {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+}
+.accessHealthGuidance {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-lg-bold-size);
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--asklepios-gray-60);
+}
+.featureLabels {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.text {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 86px;
+  white-space: nowrap;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.button {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-md-semibold-size);
+  color: var(--therapeia-blue-60);
+}
+.frame {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--asklepios-gray-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  min-width: 351px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--paragraph-xl-size);
+  color: var(--asklepios-gray-80);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 1450px) {
+  .instantAccessibility {
+    font-size: var(--text-md-semibold-size);
+  }
+
+  .frame {
+    gap: var(--gap-base);
+  }
+}

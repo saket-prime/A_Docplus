@@ -1,0 +1,94 @@
+.monotoneAddIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonIconFab {
+  border-radius: var(--br-2xs);
+  background-color: var(--asklepios-gray-10);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base);
+}
+.confidentialityAssurance {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+}
+.ourRobustPrivacy {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-lg-bold-size);
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--asklepios-gray-60);
+}
+.helpLinkButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.footerLogo {
+  position: relative;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  min-width: 86px;
+  white-space: nowrap;
+}
+.monotoneAddIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.button {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--text-md-semibold-size);
+  color: var(--therapeia-blue-60);
+}
+.group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  min-width: 281px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--paragraph-xl-size);
+  color: var(--asklepios-gray-80);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 450px) {
+  .confidentialityAssurance {
+    font-size: var(--text-md-semibold-size);
+  }
+
+  .group {
+    gap: var(--gap-base);
+  }
+}

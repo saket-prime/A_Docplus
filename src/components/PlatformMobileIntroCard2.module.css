@@ -1,0 +1,69 @@
+.atom {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: var(--therapeia-blue-60);
+  z-index: 1;
+}
+.atomWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-51xl-5) 0px 0px;
+}
+.monotoneAddIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.buttonIconFab {
+  width: 64px;
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--asklepios-gray-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+}
+.heading {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.platformAppFeatures {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--asklepios-gray-10);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  gap: var(--gap-base);
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: right;
+  font-size: var(--paragraph-xl-size);
+  color: var(--asklepios-gray-80);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: var(--text-md-semibold-size);
+  }
+}

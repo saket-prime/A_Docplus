@@ -1,0 +1,88 @@
+.groupIcon {
+  position: absolute;
+  top: -177px;
+  left: -342px;
+  width: 1646px;
+  height: 1235px;
+  object-fit: cover;
+}
+.getStartedFor {
+  margin: 0;
+  position: absolute;
+  top: 106px;
+  left: 830px;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 44px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 444px;
+  z-index: 1;
+}
+.startYourExperience {
+  position: absolute;
+  top: 174px;
+  left: 830px;
+  font-size: var(--text-lg-bold-size);
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  width: 444px;
+  z-index: 1;
+}
+.appStoreDownloadBadge {
+  position: absolute;
+  top: 301px;
+  left: 830px;
+  border-radius: var(--br-7xs-6);
+  width: 189px;
+  height: 56px;
+  overflow: hidden;
+  z-index: 1;
+}
+.appStoreDownloadBadge1 {
+  position: absolute;
+  top: 301px;
+  left: 1035px;
+  border-radius: var(--br-7xs-6);
+  width: 189px;
+  height: 56px;
+  z-index: 1;
+}
+.container {
+  height: 463px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--therapeia-blue-60);
+  overflow: hidden;
+  max-width: 100%;
+}
+.containerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-mini) var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-md-extrabold-size);
+  color: var(--asklepios-gray-white);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 1450px) {
+  .getStartedFor {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getStartedFor {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+}

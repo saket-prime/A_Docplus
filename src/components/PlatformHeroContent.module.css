@@ -1,0 +1,112 @@
+.sayGoodbyeTo {
+  margin: 0;
+}
+.text {
+  position: absolute;
+  top: 32px;
+  left: 854px;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  width: 912px;
+  z-index: 2;
+}
+.dAssetIcon {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: -590px;
+  max-height: 100%;
+  width: 1411px;
+  object-fit: contain;
+}
+.dAssetIcon1 {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 619.9px;
+  max-height: 100%;
+  width: 1411px;
+  object-fit: cover;
+  z-index: 1;
+}
+.vector {
+  position: absolute;
+  top: 465px;
+  left: 0px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
+  width: 1440px;
+  height: 474px;
+  z-index: 2;
+}
+.dashboardIcon {
+  position: absolute;
+  top: 160px;
+  left: 264px;
+  border-radius: 17.33px;
+  width: 912px;
+  height: 647px;
+  object-fit: cover;
+  z-index: 3;
+}
+.assets {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 590px;
+  width: 1440px;
+}
+.group {
+  position: absolute;
+  top: 48px;
+  left: -590px;
+  width: 2620.9px;
+  height: 1411px;
+}
+.introducingDocplus {
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 264px;
+  font-size: var(--heading-lg-extrabold-size);
+  letter-spacing: -0.02em;
+  line-height: 56px;
+  font-weight: 800;
+  font-family: inherit;
+  color: var(--asklepios-gray-80);
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 912px;
+  z-index: 2;
+}
+.heroContent {
+  align-self: stretch;
+  height: 1459px;
+  position: relative;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--paragraph-xl-size);
+  color: var(--asklepios-gray-60);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 1450px) {
+  .introducingDocplus {
+    font-size: var(--font-size-19xl);
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--text-md-semibold-size);
+    line-height: 26px;
+  }
+
+  .introducingDocplus {
+    font-size: var(--font-size-10xl);
+    line-height: 34px;
+  }
+}

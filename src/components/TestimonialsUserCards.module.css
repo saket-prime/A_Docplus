@@ -1,0 +1,113 @@
+.profilePicIcon {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  border-radius: var(--br-base);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.asAHealthcare {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+}
+.section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.solidStarIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.testimonialInnerContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.heading {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+}
+.heading1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  color: var(--asklepios-gray-60);
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--paragraph-xl-size);
+  color: var(--asklepios-gray-80);
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 411px;
+}
+.userTestimonials {
+  width: 373px;
+  border-radius: var(--br-5xl);
+  background-color: var(--asklepios-gray-10);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--text-lg-bold-size);
+  color: var(--asklepios-gray-60);
+  font-family: var(--text-lg-bold);
+}
+
+@media screen and (max-width: 1450px) {
+  .testimonialInnerContent {
+    gap: var(--gap-base);
+  }
+
+  .heading {
+    font-size: var(--text-md-semibold-size);
+  }
+
+  .heading1 {
+    font-size: var(--text-md-semibold-size);
+  }
+
+  .userTestimonials {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

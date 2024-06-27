@@ -1,0 +1,13 @@
+.frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--text-sm-semibold-size);
+  color: var(--asklepios-gray-80);
+  font-family: var(--text-lg-bold);
+}
