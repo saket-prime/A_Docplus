@@ -90,18 +90,20 @@ function App() {
 
   return (
     <div className="container">
-      <Routes>
-        <Route path="/" element={<HomepageDesktop />} />
-        <Route path="/faq-desktop" element={<FAQDesktop />} />
-        <Route path="/careers" element={<CareersDesktop />} />
-        <Route path="/services" element={<ServicesDesktop />} />
-        <Route path="/resources" element={<ResourcesDesktop />} />
-        <Route path="/ai-health-assessment" element={<AIHealthAssessmentDesktop />} />
-        <Route path="/platform" element={<PlatformDesktop />} />
-        <Route path="/ai-health-assistant" element={<AIHealthAssistantDesktop />} />
-        <Route path="/about-us" element={<AboutUsDesktop />} />
-        <Route path="/testimonials" element={<TestimonialsDesktop />} />
-      </Routes>
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<HomepageDesktop />} />
+          <Route path="/faq-desktop" element={<FAQDesktop />} />
+          <Route path="/careers" element={<CareersDesktop />} />
+          <Route path="/services" element={<ServicesDesktop />} />
+          <Route path="/resources" element={<ResourcesDesktop />} />
+          <Route path="/ai-health-assessment" element={<AIHealthAssessmentDesktop />} />
+          <Route path="/platform" element={<PlatformDesktop />} />
+          <Route path="/ai-health-assistant" element={<AIHealthAssistantDesktop />} />
+          <Route path="/about-us" element={<AboutUsDesktop />} />
+          <Route path="/testimonials" element={<TestimonialsDesktop />} />
+        </Routes>
+      </div>
     </div>
   );
 }
