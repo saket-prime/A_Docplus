@@ -221,10 +221,10 @@
   padding: var(--padding-89xl) var(--padding-xl);
   box-sizing: border-box;
   gap: var(--gap-67xl);
-  max-width: 100%;
+  width: 100%;
 }
 .story {
-  width: 1440px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -331,5 +331,9 @@
     padding-top: var(--padding-10xl);
     padding-bottom: var(--padding-10xl);
     box-sizing: border-box;
+  }
+  
+  .story {
+    padding: 0px var(--padding-mid);
   }
 }

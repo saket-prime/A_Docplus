@@ -273,7 +273,7 @@
   justify-content: flex-start;
   padding: 0px var(--padding-5xl);
   box-sizing: border-box;
-  max-width: 100%;
+  width: 100%;
   text-align: left;
   font-size: var(--display-md-extrabold-size);
   color: var(--asklepios-gray-80);

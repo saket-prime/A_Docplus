@@ -133,7 +133,7 @@
   max-width: 100%;
 }
 .topNav {
-  align-self: stretch;
+  align-self:stretch;
   flex: 1;
   border-radius: var(--br-sm);
   background-color: var(--asklepios-gray-10);

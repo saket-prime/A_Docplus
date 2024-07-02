@@ -26,7 +26,7 @@
   gap: var(--gap-base);
 }
 .frame {
-  width: 332px;
+  width: 20%;
   border-radius: var(--br-base);
   background-color: var(--aceso-purple-60);
   display: flex;
@@ -35,7 +35,7 @@
   justify-content: flex-start;
   padding: var(--padding-base);
   box-sizing: border-box;
-  min-width: 332px;
+  /* min-width: 332px; */
   max-width: 100%;
 }
 .fitness {
@@ -253,9 +253,11 @@
   max-width: 100%;
 }
 .featuresRow {
-  width: 1157px;
+  width: 90%;
+  margin: 0px;
   display: flex;
   flex-direction: column;
+  align-self: center;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-base);
@@ -347,12 +349,12 @@
 }
 @media screen and (max-width: 450px) {
   .personalized {
-    font-size: var(--font-size-lgi);
-    line-height: 26px;
+    display: none;
   }
-
-  .personalizedHealthcare {
-    flex-wrap: wrap;
+  
+  .frame {
+    width: 50%;
+    flex:0;
   }
 
   .fitness {
@@ -387,8 +389,16 @@
   }
 
   .container {
-    padding-top: var(--padding-32xl);
-    padding-bottom: var(--padding-32xl);
+    /* padding: var(--padding-43xl) var(--padding-mid); */
     box-sizing: border-box;
   }
+  
+  .containerWrapper {
+    padding: var(--padding-13xl) var(--padding-mid);
+  }
+  
+  .featuresRow {
+    align-self: self-start;
+  }
+
 }

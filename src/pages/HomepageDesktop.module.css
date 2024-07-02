@@ -5,8 +5,9 @@
   justify-content: flex-start;
   padding: 0px var(--padding-5xl);
   box-sizing: border-box;
-  max-width: 100%;
+  width: 100%;
 }
+
 .frameParent {
   align-self: stretch;
   display: flex;
@@ -18,6 +19,7 @@
   gap: var(--gap-17xl);
   max-width: 100%;
 }
+
 .anomalyContainer {
   align-self: stretch;
   display: flex;
@@ -28,6 +30,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .docplusChoice {
   align-self: stretch;
   display: flex;
@@ -38,6 +41,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .personalizeHealth {
   align-self: stretch;
   display: flex;
@@ -48,6 +52,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .homepageDesktop2 {
   width: 100%;
   position: relative;
@@ -69,4 +74,11 @@
   .frameParent {
     gap: var(--gap-lg);
   }
+}
+
+@media screen and (max-width: 425px) {
+  .homepageDesktop2{
+    padding : 0px;
+  }
+  
 }

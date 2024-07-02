@@ -71,7 +71,7 @@
   gap: var(--gap-xl);
 }
 .tagContent {
-  width: 1440px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -104,7 +104,7 @@
   max-width: 100%;
 }
 .galleryContainer {
-  width: 1488px;
+  width: 100%;
   height: 533px;
   overflow-x: auto;
   flex-shrink: 0;
@@ -115,7 +115,6 @@
   padding: 0px var(--padding-246xl);
   box-sizing: border-box;
   gap: var(--gap-5xl);
-  max-width: 100%;
 }
 .progressBarAtom {
   height: 8px;
@@ -189,6 +188,7 @@
   gap: var(--gap-xl);
 }
 .tagContentParent {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -196,7 +196,6 @@
   padding: 0px 0px var(--padding-79xl);
   box-sizing: border-box;
   gap: var(--gap-45xl);
-  max-width: 100%;
   text-align: left;
   font-size: var(--heading-xl-extrabold-size);
   color: var(--asklepios-gray-80);
