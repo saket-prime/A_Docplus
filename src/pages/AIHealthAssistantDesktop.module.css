@@ -5,7 +5,7 @@
   justify-content: flex-start;
   padding: 0px var(--padding-mini) var(--padding-5xl);
   box-sizing: border-box;
-  max-width: 100%;
+  width: 100%;
 }
 .aiHealthAssistantDesktop {
   width: 100%;
