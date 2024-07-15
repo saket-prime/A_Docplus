@@ -12,7 +12,7 @@
   width: 8px;
   position: relative;
   border-radius: var(--br-11xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
 }
 .navLinkItem {
   display: flex;
@@ -126,7 +126,7 @@
 }
 .button {
   border-radius: var(--br-xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -140,9 +140,9 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: var(--gap-21xl);
-  max-width: 100%;
+  width: 100%;
   z-index: 3;
   text-align: left;
   font-size: var(--text-lg-bold-size);

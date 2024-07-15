@@ -6,6 +6,7 @@
   min-height: 64px;
 }
 .monotoneAddIcon {
+  filter: invert(59%) sepia(98%) saturate(2314%) hue-rotate(132deg) brightness(95%) contrast(84%);
   height: 24px;
   width: 24px;
   position: relative;
@@ -97,7 +98,7 @@
   cursor: pointer;
   border: none;
   padding: var(--padding-xl) var(--padding-13xl);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   border-radius: var(--br-xs);
   overflow: hidden;
   display: flex;

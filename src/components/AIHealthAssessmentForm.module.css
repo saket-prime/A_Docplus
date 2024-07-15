@@ -104,7 +104,7 @@
   cursor: pointer;
   border: none;
   padding: var(--padding-base) var(--padding-43xl);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   box-shadow: var(--focus-ring-blue);
   border-radius: var(--br-xs);
   overflow: hidden;
@@ -288,7 +288,7 @@
   cursor: pointer;
   border: none;
   padding: var(--padding-lg) var(--padding-xl);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   flex: 1;
   box-shadow: var(--focus-ring-blue);
   border-radius: var(--br-xs);
@@ -517,7 +517,7 @@
 .button7 {
   box-shadow: var(--focus-ring-blue);
   border-radius: var(--br-xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -607,7 +607,7 @@
 .button11 {
   box-shadow: var(--focus-ring-blue);
   border-radius: var(--br-xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   overflow: hidden;
   display: flex;
   flex-direction: row;

@@ -49,11 +49,11 @@
   align-items: center;
   justify-content: center;
   font-size: var(--text-md-semibold-size);
-  color: var(--therapeia-blue-60);
+  color: var(--therecovery-teal-50);
 }
 .frame {
   align-self: stretch;
-  border-left: 4px solid var(--therapeia-blue-60);
+  border-left: 4px solid var(--therecovery-teal-50);
   display: flex;
   flex-direction: column;
   align-items: flex-start;

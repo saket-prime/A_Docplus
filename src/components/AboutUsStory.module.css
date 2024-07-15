@@ -69,7 +69,7 @@
   width: 80px;
   border-radius: var(--br-xs);
   background-color: var(--asklepios-gray-10);
-  border: 8px solid var(--therapeia-blue-60);
+  border: 8px solid var(--therecovery-teal-50);
   box-sizing: border-box;
   overflow: hidden;
   flex-shrink: 0;
@@ -213,7 +213,7 @@
 .container {
   flex: 1;
   border-radius: var(--br-5xl);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   display: flex;
   flex-direction: column;
   align-items: center;

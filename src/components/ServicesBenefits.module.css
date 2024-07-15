@@ -20,7 +20,7 @@
 .vector {
   flex: 1;
   border-radius: var(--br-base);
-  background-color: var(--therapeia-blue-50);
+  background-color: var(--therecovery-teal-40);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -40,7 +40,7 @@
 }
 .vector1 {
   border-radius: var(--br-base);
-  background-color: var(--therapeia-blue-50);
+  background-color: var(--therecovery-teal-40);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,7 +126,7 @@
 .vector3 {
   flex: 1;
   border-radius: var(--br-base);
-  background-color: var(--therapeia-blue-50);
+  background-color: var(--therecovery-teal-40);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -162,7 +162,7 @@
 .vector4 {
   flex: 0.9671;
   border-radius: var(--br-base);
-  background-color: var(--therapeia-blue-50);
+  background-color: var(--therecovery-teal-40);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -189,7 +189,7 @@
 .vector5 {
   flex: 1;
   border-radius: var(--br-base);
-  background-color: var(--therapeia-blue-50);
+  background-color: var(--therecovery-teal-40);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -207,7 +207,7 @@
   gap: var(--gap-base);
 }
 .benefitCards {
-  width: 566px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

@@ -27,7 +27,7 @@
 }
 .button {
   border-radius: var(--br-xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -52,7 +52,7 @@
   padding: var(--padding-xl) var(--padding-13xl);
 }
 .navigation {
-  width: 1344px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -237,7 +237,7 @@
   height: 8px;
   position: relative;
   border-radius: var(--br-11xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
 }
 .linkIconContainer {
   display: flex;
@@ -391,7 +391,7 @@
   z-index: 1;
 }
 .footerInfo {
-  width: 1156px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -400,7 +400,7 @@
   box-sizing: border-box;
   min-height: 700px;
   max-width: 100%;
-  margin-left: -1250px;
+  
 }
 .footer {
   flex: 1;
@@ -408,7 +408,7 @@
   background-color: var(--asklepios-gray-80);
   overflow: hidden;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
   padding: var(--padding-103xl) var(--padding-5xl) var(--padding-5xl);

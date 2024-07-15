@@ -39,7 +39,7 @@
   cursor: pointer;
   border: 1px solid var(--asklepios-gray-white);
   padding: var(--padding-sm) var(--padding-8xl);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   border-radius: var(--br-xs);
   overflow: hidden;
   display: flex;

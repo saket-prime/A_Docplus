@@ -45,15 +45,13 @@
   }
 
   .servicesSection {
-    padding-top: var(--padding-21xl);
-    padding-bottom: var(--padding-21xl);
+    padding: var(--padding-21xl) 0px;
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
   .container {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
+    padding:0 var(--padding-mid);
     box-sizing: border-box;
   }
 }

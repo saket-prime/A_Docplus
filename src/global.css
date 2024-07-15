@@ -9,13 +9,12 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 0 20px;
   box-sizing: border-box;
 }
 
 .content {
   width: 100%;
-  max-width: 1550px;
+  max-width: 1920px;
 }
     
 :root {
@@ -35,7 +34,7 @@ body {
   --label-sm-size: 12px;
   --heading-md-extrabold-size: 36px;
   --font-size-3xl: 22px;
-  --heading-2xl-extrabold-size: 72px;
+  --heading-2xl-extrabold-size: 75px;
   --font-size-24xl: 43px;
   --font-size-39xl: 58px;
   --heading-sm-extrabold-size: 30px;
@@ -73,17 +72,18 @@ body {
   --color-slategray-400: rgba(87, 97, 125, 0.09);
   --color-slategray-300: rgba(99, 112, 140, 0.09);
   
-  --therapeia-blue-60: #0f67fe;
+  /* --therecovery-teal-50: #0f67fe;
   --therapeia-blue-30: #a6cbff;
   --therapeia-blue-20: #d0e4ff;
   --therapeia-blue-40: #78aeff;
-  --therapeia-blue-50: #458cff;
-  --therapeia-blue-10: #edf5ff;
+  --therecovery-teal-40: #458cff;
+  --therapeia-blue-10: #edf5ff; */
   
+  --therecovery-teal-40: #2DD4BF;
   --therapeia-blue-70: #008B7E;
-  --therapeia-blue-60: #00A290;
+  --therecovery-teal-50: #14B8A6;
   --therapeia-blue-10: #A6DDD3;
-  --therapeia-blue-50: #26A699;
+  /* --therecovery-teal-40: #14B8A6; */
   --therapeia-blue-30: #5AC1B2;
   
   --aceso-purple-50: #a56eff;

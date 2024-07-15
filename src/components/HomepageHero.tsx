@@ -48,13 +48,7 @@ const HomepageHero: FunctionComponent<HomepageHeroType> = ({
       </main>
       <div className={styles.topNav}> <TopNav1 /></div> 
       <footer className={styles.buttonIconFabParent}>
-        <div className={styles.buttonIconFab}>
-          <img
-            className={styles.monotoneAddIcon1}
-            alt=""
-            src="/monotone-add.svg"
-          />
-        </div>
+        
         <div className={styles.gradient} />
       </footer>
     </div>

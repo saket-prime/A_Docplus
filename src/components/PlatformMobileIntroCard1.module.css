@@ -42,7 +42,7 @@
   height: 12px;
   position: relative;
   border-radius: var(--br-10xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
 }
 .secondGridItem {
   display: flex;

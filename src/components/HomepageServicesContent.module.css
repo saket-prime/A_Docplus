@@ -1,5 +1,5 @@
 .contactUs {
-  color: var(--therapeia-blue-60);
+  color: var(--therecovery-teal-50);
 }
 .donTSeeContainer {
   position: relative;
@@ -33,7 +33,7 @@
 }
 .button {
   border-radius: var(--br-xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -91,5 +91,13 @@
 @media screen and (max-width: 450px) {
   .main {
     gap: var(--gap-5xl);
+  }
+  
+  .contactButtonWrapper{
+    width:100%
+  }
+  
+  .button{
+    width:100%
   }
 }

@@ -1,17 +1,232 @@
+.heroSection {
+  display: flex;
+  width: 100%;
+  height: 900px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--heading-2xl-extrabold-size);
+  color: var(--asklepios-gray-80);
+  font-family: var(--text-lg-bold);
+  justify-content: space-between; /* Ensure space between col and heroImage */
+  align-items: center; /* Center items vertically */ /* Add left padding */
+  box-sizing: border-box;
+}
+
+.col {
+  flex:1; /* Ensure col takes up available space */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding-left: 30px;
+  gap: 38px;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
 .heading {
   margin: 0;
   align-self: stretch;
   position: relative;
   font-size: inherit;
   letter-spacing: -0.02em;
-  line-height: 80px;
+  line-height: 90px;
   font-weight: 800;
   font-family: inherit;
+  font-size: 100px;
+}
+
+.docplusProvidesPersonalizedContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 25px;
+  line-height: 160%;
+  color: var(--asklepios-gray-60);
+}
+
+.docplusProvidesPersonalized,
+.blankLine {
+  margin: 0;
+  font-weight: 600;
+}
+
+.trustedByOver400000Users {
+  margin: 0;
+}
+
+.trustedByOver {
+  font-weight: 500;
+}
+
+.andCounting,
+.users {
+  font-weight: 800;
+  font-family: var(--text-lg-bold);
+}
+
+.andCounting {
+  font-weight: 500;
+}
+
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-13xl);
+  background-color: var(--therecovery-teal-50);
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+
+.text1 {
+  position: relative;
+  font-size: var(--text-lg-bold-size);
+  letter-spacing: -0.01em;
+  display: inline-block;
+  font-family: var(--text-lg-bold);
+  color: var(--asklepios-gray-white);
+  text-align: left;
+  min-width: 129px;
+}
+
+.monotoneAddIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+
+.heroImage {
+  flex: 1; /* Ensure heroImage takes up available space */
+  position: relative;
+  z-index: 0;
+  height: 100%;
+  display: flex;
+  align-items: center; /* Centers the images vertically */
+  justify-content: flex-end; /* Ensures images are aligned to the end */
+}
+
+.dAssetIcon,
+.image19Icon {
+  position: absolute;
+  object-fit: cover;
+}
+
+.dAssetIcon {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 930px; /* Set a fixed width */
+  height: 939px; /* Set a fixed height */
+  object-fit: contain; /* Ensure the image fits within the specified dimensions */
+}
+
+.image19Icon {
+  position: absolute;
+  top: 80px;
+  /* left: 0; */
+  width: 115%;
+  height: 100%; /* Make the image fill the height of its container */
+  /* object-fit: cover; Ensure the image covers the container */
+  object-position: top; /* Align the top portion of the image */
+  z-index: 2;
+}
+
+.gradient {
+  position: absolute;
+  top: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
+  width: 135%;
+  height: 100%;
+  z-index: 3;
+}
+
+.buttonIconFabParent {
+  position: absolute;
+  top: 704px;
+  left: 0;
+  width: 1439.5px;
+  height: 196px;
+}
+
+.topNav {
+  position: absolute;
+  width: 96%;
+  top: 39px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 58px;
+    line-height: 64px;
+  }
+
+  .heroSection {
+    flex-direction: column; /* Stack col and heroImage vertically */
+  }
+
+  .heroImage {
+    display: none; /* Hide heroImage on small screens */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 43px;
+    line-height: 48px;
+  }
+
+  .docplusProvidesPersonalizedContainer {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+
+
+
+/* .heading {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 90px;
+  font-weight: 800;
+  font-family: inherit;
+  font-size: 100px;;
 }
 .blankLine,
 .docplusProvidesPersonalized {
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
 }
 .trustedByOver {
   font-weight: 500;
@@ -30,7 +245,7 @@
 .docplusProvidesPersonalizedContainer {
   align-self: stretch;
   position: relative;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 160%;
   color: var(--asklepios-gray-60);
 }
@@ -72,7 +287,7 @@
   cursor: pointer;
   border: 0;
   padding: var(--padding-xl) var(--padding-13xl);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   border-radius: var(--br-xs);
   overflow: hidden;
   justify-content: center;
@@ -80,8 +295,8 @@
 .col {
   position: absolute;
   top: 71px;
-  left: 142px;
-  width: 448px;
+  left: 8%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -97,7 +312,7 @@
   position: absolute;
   top: 0;
   left: 104.5px;
-  width: 930px;
+  /*width: 930px; 
   height: 939px;
   object-fit: contain;
 }
@@ -111,39 +326,25 @@
 }
 .heroImage {
   z-index: 0;
-  position: absolute;
+  position: relative;
   height: 100%;
   top: 0;
   bottom: 0;
-  right: 1000px;
+  /* left: 47%; 
+  right: 0%;
 }
 .monotoneAddIcon1 {
   height: 24px;
   width: 24px;
   position: relative;
 }
-.buttonIconFab {
-  position: absolute;
-  top: 108px;
-  left: 24px;
-  border-radius: var(--br-xs);
-  border: 1px solid var(--asklepios-gray-80);
-  box-sizing: border-box;
-  width: 64px;
-  height: 64px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-}
+
 .gradient {
   position: absolute;
   top: 0;
-  left: -0.5px;
+  
   background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
-  width: 100%;
+  width: 135%;
   height: 100%;
   z-index: 3;
 }
@@ -155,6 +356,7 @@
   height: 196px;
 }
 .heroSection {
+  display: flex;
   width: 100%;
   height: 900px;
   position: relative;
@@ -169,14 +371,19 @@
 }
 .topNav{
   position: inherit;
+  width: 95%;
   top: 39px;
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 767px) {
   .heading {
     font-size: 58px;
     line-height: 64px;
+  }
+  .heroImage {
+    display: none;
   }
 }
 @media screen and (max-width: 450px) {
@@ -188,4 +395,5 @@
     font-size: 16px;
     line-height: 26px;
   }
-}
+} 
+*/

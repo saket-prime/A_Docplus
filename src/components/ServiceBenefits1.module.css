@@ -42,7 +42,7 @@
   gap: var(--gap-5xl);
 }
 .serviceBenefitsContent {
-  width: 388px;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

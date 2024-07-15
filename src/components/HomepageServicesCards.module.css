@@ -56,7 +56,6 @@
   padding: var(--padding-5xl);
   box-sizing: border-box;
   gap: var(--gap-45xl);
-  min-width: 294px;
   max-width: 100%;
   text-align: left;
   font-size: var(--heading-xs-extrabold-size);

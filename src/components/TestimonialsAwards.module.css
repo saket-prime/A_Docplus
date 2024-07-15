@@ -20,7 +20,7 @@
   top: 549px;
   left: 446px;
   border-radius: var(--br-lg);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   width: 96px;
   height: 96px;
   overflow: hidden;
@@ -43,7 +43,7 @@
   max-width: 100%;
 }
 .span {
-  color: var(--therapeia-blue-60);
+  color: var(--therecovery-teal-50);
 }
 .awardsRecognitions {
   margin: 0;

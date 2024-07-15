@@ -75,28 +75,6 @@ const FooterDesktop3: FunctionComponent<FooterDesktop3Type> = ({
     >
       <div className={styles.footer}>
         <img className={styles.logoMarkIcon} alt="" src={logoMark} />
-        <div className={styles.navigation}>
-          <div className={styles.button}>
-            <div className={styles.content}>
-              <b className={styles.text}>Download The App</b>
-              <img
-                className={styles.monotoneAddIcon}
-                alt=""
-                src={monotoneAdd}
-              />
-            </div>
-          </div>
-          <div className={styles.button1}>
-            <div className={styles.content}>
-              <b className={styles.text1}>Back To Top</b>
-              <img
-                className={styles.monotoneAddIcon}
-                alt=""
-                src={monotoneAdd1}
-              />
-            </div>
-          </div>
-        </div>
         <div className={styles.footerInfo}>
           <div className={styles.description}>
             <div className={styles.company} style={companyStyle}>
@@ -223,6 +201,28 @@ const FooterDesktop3: FunctionComponent<FooterDesktop3Type> = ({
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.navigation}>
+          <div className={styles.button}>
+            <div className={styles.content}>
+              <b className={styles.text}>Download The App</b>
+              <img
+                className={styles.monotoneAddIcon}
+                alt=""
+                src={monotoneAdd}
+              />
+            </div>
+          </div>
+          <div className={styles.button1}>
+            <div className={styles.content}>
+              <b className={styles.text1}>Back To Top</b>
+              <img
+                className={styles.monotoneAddIcon}
+                alt=""
+                src={monotoneAdd1}
+              />
             </div>
           </div>
         </div>

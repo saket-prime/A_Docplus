@@ -2,7 +2,7 @@
   position: absolute;
   top: -497.6px;
   left: -227.2px;
-  width: 1895.3px;
+  width: 125%;
   height: 1895.3px;
   object-fit: contain;
 }
@@ -11,7 +11,7 @@
   top: 704px;
   left: 0px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
-  width: 1440px;
+  width: 100%;
   height: 196px;
   z-index: 1;
 }
@@ -35,7 +35,7 @@
   padding: var(--padding-5xl);
   box-sizing: border-box;
   position: relative;
-  max-width: 100%;
+  width: 100%;
   text-align: center;
   font-size: var(--text-md-semibold-size);
   color: var(--asklepios-gray-80);

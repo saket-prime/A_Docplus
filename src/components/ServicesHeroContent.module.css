@@ -18,7 +18,7 @@
   white-space: nowrap;
 }
 .aiml {
-  color: var(--therapeia-blue-60);
+  color: var(--therecovery-teal-50);
 }
 .weEmpowerYourContainer {
   width: 672px;
@@ -45,7 +45,7 @@
 }
 .button {
   border-radius: var(--br-xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -124,13 +124,12 @@
   margin: 0 !important;
   position: absolute;
   bottom: 0px;
-  left: calc(50% - 696px);
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
   gap: var(--gap-xl);
-  max-width: 100%;
+  width: 95%;
   z-index: 3;
   font-size: var(--text-sm-semibold-size);
 }

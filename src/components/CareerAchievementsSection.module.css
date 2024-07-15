@@ -45,7 +45,7 @@
 }
 .button {
   border-radius: var(--br-xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -75,7 +75,7 @@
   min-height: 140px;
 }
 .k1 {
-  color: var(--therapeia-blue-60);
+  color: var(--therecovery-teal-50);
 }
 .k {
   align-self: stretch;

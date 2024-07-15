@@ -55,7 +55,7 @@
   padding: var(--padding-2xs) var(--padding-mini);
   box-sizing: border-box;
   min-width: 26px;
-  color: var(--therapeia-blue-60);
+  color: var(--therecovery-teal-50);
 }
 .paginationNumber2 {
   flex: 0.5556;

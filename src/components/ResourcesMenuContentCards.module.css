@@ -107,7 +107,7 @@
   gap: var(--gap-5xs);
   text-align: center;
   font-size: var(--text-sm-semibold-size);
-  color: var(--therapeia-blue-60);
+  color: var(--therecovery-teal-50);
 }
 .frame1 {
   flex: 1;

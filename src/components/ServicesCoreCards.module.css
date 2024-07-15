@@ -63,7 +63,7 @@
   align-items: center;
   justify-content: center;
   font-size: var(--text-md-semibold-size);
-  color: var(--therapeia-blue-60);
+  color: var(--therecovery-teal-50);
 }
 .interactionContainer {
   flex: 1;

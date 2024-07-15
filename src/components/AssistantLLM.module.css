@@ -107,7 +107,7 @@
 .stepsItem {
   box-shadow: var(--focus-ring-blue);
   border-radius: var(--br-7xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -237,7 +237,7 @@
 }
 .stepsItem2 {
   border-radius: var(--br-7xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   overflow: hidden;
   display: flex;
   flex-direction: row;

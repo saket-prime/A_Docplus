@@ -383,7 +383,7 @@
   left: 86px;
   box-shadow: var(--indicator-indicator-blue);
   border-radius: var(--br-11xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   border: 2px solid var(--asklepios-gray-10);
   box-sizing: border-box;
   width: 12px;
@@ -649,7 +649,7 @@
   width: 56px;
   position: relative;
   border-radius: var(--br-5xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   display: none;
 }
 .content5 {
@@ -729,7 +729,7 @@
 .main {
   flex: 1;
   border-radius: var(--br-xs);
-  background-color: var(--therapeia-blue-60);
+  background-color: var(--therecovery-teal-50);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
